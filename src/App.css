@@ -1,38 +1,54 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:wght@300&family=Quicksand:wght@500;600&family=Raleway:wght@300&family=Tiro+Bangla&display=swap');
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 95vh;
+}
+
+h1{
+  font-family: 'Cinzel', serif;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1em;
+}
+
+h6{
   text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  text-align: center;
+  font-family: 'Tiro Bangla', serif;
+  font-size: 1.2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__controls {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(196, 255, 255);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__controlsContainer {
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__control {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }

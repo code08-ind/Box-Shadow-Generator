@@ -1,0 +1,22 @@
+.box{
+    flex:0.5;
+    display: flex;
+    background-color: rgb(226, 255, 245);
+    align-items: center;
+    justify-content: center;
+}
+
+.box__box{
+    height:500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    justify-content: center;
+    background-color: white;
+    border:2px solid black;
+}
+
